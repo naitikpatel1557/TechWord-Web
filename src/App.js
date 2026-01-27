@@ -60,7 +60,7 @@ function App() {
       <div className="container my-3">
         <Routes>
           <Route exact path="/about"                                                                        //Redirect the about page when I click the About Us Button using react router
-            element={<About />} 
+            element={<About mode={mode} />} 
           />
 
           <Route exact path="/" 

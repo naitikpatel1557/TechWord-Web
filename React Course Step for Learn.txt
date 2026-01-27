@@ -1,0 +1,93 @@
+-> Extension for React
+    1. ES7 React/Redux/GraphQL/React-Native snippets
+    2. Auto Rename Tag
+    3. Prettier - Code formatter
+
+
+------------------------------------------------------------------------------------------------------
+
+
+->React is a library for building user interfaces, not a framework
+
+->Create the React Package File to help of belove command in terminal
+    npx create-react-app my-app
+
+    After this command to create the 'my-app' file
+
+->Go to the my-app in terminal using below command
+    cd my-app
+
+->After go to the my-app then Run the React app to help of to belove command
+    npm start
+
+->After all step go to the srs folder and open the App.js 
+    to add the '<>' JSX tag 
+
+
+->Modules
+    Here first of all to create module1.mjs file and create the second file name is module2.mjs.
+    
+    "export default" Properties
+    After creating a file then module2.mjs file  to declare the constant variables such as a, b, c, d.
+
+    After creating a variables then import the module2.mjs file in module1.mjs.
+
+    After import that file then write 'export default b; ' then run that file.
+
+    Then we can show default name when we export default name
+
+    "Named Export"
+
+->Properties(Props)
+
+    Create Components folder and in components folder to create Navbar.js file.
+
+    After creating Navbar file to past the navbar code.
+
+    After pasting code then go to App.js file then write the <Navbar/> file name then show the navbar on website
+
+    After the Declare Navbar then declare the title Navbar e.g. <Navbar title="TechWord"/> in App.js file
+    
+
+->useState (Hook)
+
+    to set the value any where using below tag
+            const [text, setText] = useState("Enter text here"); 
+
+    to help of javascript we can setText to anywhere
+        ex. on TextForm.js file components
+
+->Template Literal
+
+    In Template Literal to write the javascript inside the html tag
+        ex. <nav className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
+            <div className={`form-check form-switch mx-2 text-${props.mode === 'light' ? 'dark' : 'light'}`}>   {/* Dynamic text color based on mode props*/}  
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+
+first of all to select Folder where I download & Save the React Project, 
+After open the Powershell window where the I save the folder in windows
+
+After the open powershell then write this command
+npx create-react-app inotebook
+
+after create inotebook folder in inotebook folder to create backend folder,
+
+
+Then open the visual studio code and open backend folder,
+in visual studio code open the new terminal and in terminal to write this command
+
+1) npm init,
+2) npm i express (server)
+3) npm npm i mangoose
+
+
+After this step-dawnload the Thunder Client Extension in visual studio
+
+--------------------------------------------------------------------------------------------------------
+
+
+
