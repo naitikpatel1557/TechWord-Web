@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/TechWord-Web/static/css/main.dc4d6ff2.css",
-    "main.js": "/TechWord-Web/static/js/main.561429ea.js",
+    "main.js": "/TechWord-Web/static/js/main.5e053e29.js",
     "static/js/453.fd2f0c4a.chunk.js": "/TechWord-Web/static/js/453.fd2f0c4a.chunk.js",
     "index.html": "/TechWord-Web/index.html",
     "main.dc4d6ff2.css.map": "/TechWord-Web/static/css/main.dc4d6ff2.css.map",
-    "main.561429ea.js.map": "/TechWord-Web/static/js/main.561429ea.js.map",
+    "main.5e053e29.js.map": "/TechWord-Web/static/js/main.5e053e29.js.map",
     "453.fd2f0c4a.chunk.js.map": "/TechWord-Web/static/js/453.fd2f0c4a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.561429ea.js"
+    "static/js/main.5e053e29.js"
   ]
 }
