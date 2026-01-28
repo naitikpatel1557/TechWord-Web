@@ -1,6 +1,6 @@
 {
   "homepage": "https://naitikpatel1557.github.io/TechWord-Web",
-  "name": "my-app",
+    "name": "my-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

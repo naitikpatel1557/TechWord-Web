@@ -64,11 +64,11 @@ export default function Textform(props) {
             <div className="mb-3">
                 <textarea className="form-control" id="myBox" value={text} onChange={handleOnChange} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : 'white', color: props.mode === 'dark' ? 'white' : 'black' }} rows="8" placeholder='Enter text Here'></textarea>
             </div>
-            <button className="btn mx-1 my-1" onClick={handleUpClick} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Convert to Uppercase</button>
-            <button className="btn mx-1 my-1" onClick={handleLoClick} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Convert to Lowecase</button>
-            <button className="btn mx-1 my-1" onClick={handleClearText} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Clear Text</button>
-            <button className="btn mx-1 my-1" onClick={handleCopy} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Copy Text</button>
-            <button className="btn mx-1 my-1" onClick={handleExtraSpaces} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Remove Extra Spaces</button>
+            <button className="btn mx-1 my-1" disabled={text.length === 0} onClick={handleUpClick} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Convert to Uppercase</button>
+            <button className="btn mx-1 my-1" disabled={text.length === 0} onClick={handleLoClick} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Convert to Lowecase</button>
+            <button className="btn mx-1 my-1" disabled={text.length === 0} onClick={handleClearText} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Clear Text</button>
+            <button className="btn mx-1 my-1" disabled={text.length === 0} onClick={handleCopy} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Copy Text</button>
+            <button className="btn mx-1 my-1" disabled={text.length === 0} onClick={handleExtraSpaces} style={{ backgroundColor: props.mode === 'dark' ? '#212529' : '#0d6efd', color: props.mode === 'dark' ? 'white' : 'white' }} >Remove Extra Spaces</button>
         </div>
         <div className="container my-3" style={{ color: props.mode === 'dark' ? 'white' : 'black' }}>
             <h2>Your Text Summary</h2>
